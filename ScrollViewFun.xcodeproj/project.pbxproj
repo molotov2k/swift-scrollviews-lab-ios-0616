@@ -96,6 +96,11 @@
 				TargetAttributes = {
 					7DDC7AA81D24BDBF00F43109 = {
 						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -288,6 +293,7 @@
 				7DDC7ABD1D24BDBF00F43109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
